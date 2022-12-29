@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .prompt{
+            background-color: rgb(0, 0, 0,30%);
+            width: 90rem;
+            height:10rem;
+            border: 2%;
+            border-radius: 2rem;
+            margin-left: 1rem;
+            color: aliceblue;
+            font-size: 1.5REM;
+            box-shadow: 0PX 8PX 18PX rgb(121, 246, 121);
+
+        }
+        #parap{
+            color:green;
+            font-size: 2rem;
+            padding-top: 3REM;
+
+        
+        }
+    </style>
+    <div class="prompt" id="prompt">
+       <center><p id="parap"></p></center> 
+       
+    </div>
+    <script>
+    var a= prompt("What is your name");
+    var b=document.getElementById("parap");
+    b.innerHTML= (a+" thanks for visting our website.This website is a example,it is not actual version if you are intrested then contact us")
+    alert("Thanks for vist "+a);
+
+    </script>
+</body>
+</html>
